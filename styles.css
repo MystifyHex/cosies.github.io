@@ -39,10 +39,14 @@ nav ul li a {
     text-decoration: none;
     color: #FFFFFF;
     font-family: sans-serif;
+    padding: 5px 20px;
+    border: 1px solid #FFFFFF;
 }
 
 a:hover {
     text-decoration: none;
     color: #6E3598;
     font-family: sans-serif;
+    padding: 5px 20px;
+    border: 1px solid #6E3598;
 }
