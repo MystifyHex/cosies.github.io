@@ -1,0 +1,38 @@
+.left {
+  margin: 2px;
+  float: left;
+}
+.right {
+  float: left;
+  margin-top: 2px;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #6e3598;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #ffffff;
+  padding: 20px;
+  margin-right: 10px;
+  width: 850px;
+  height: 400px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  background: #ffffff;
+  padding: 20px;
+  margin-left: 10px;
+  width: 905px;
+  height: 400px;
+  text-align: center;
+  font-family: sans-serif;
+}
