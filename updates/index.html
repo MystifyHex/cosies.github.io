@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="icon" href="images/icon.ico" />
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <link rel="icon" href="../images/icon.ico" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Updates | Cosies</title>
-</head>
-<body>
-    <div class="box_container">
-        <div class="left">
-          <p id="rcorners1">This is my new website!</p>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fas fa-J"></i></a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-        <div class="right">
-          <p id="rcorners2">Server release coming soon...</p>
-        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__btn">
+            <a href="/" class="button"> Home </a>
+          </li>
+          <li class="navbar__btn">
+            <a href="../updates" class="button"> Updates </a>
+          </li>
+          <li class="navbar__btn">
+            <a href="../appeals/" class="button"> Appeals </a>
+          </li>
+          <li class="navbar__btn">
+            <a href="../discord" class="button"> Discord </a>
+          </li>
+        </ul>
       </div>
-</body>
-</html>
+    </nav>
 
+    <div class="box_container">
+      <div class="left">
+        <p id="rcorners1">This is my new website!</p>
+      </div>
+      <div class="right">
+        <p id="rcorners2">Server release coming soon...</p>
+      </div>
+    </div>
+  </body>
+</html>
