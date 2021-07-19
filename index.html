@@ -1,50 +1,66 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <link rel="icon" href="images/icon.ico" />
-    <title>Cosies</title>
     <link rel="stylesheet" href="styles.css" />
+    <title>cosies.club</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-      <meta name="theme-color" content="#6E3598">
-      <meta property="og:image:width" content="128">
-      <meta property="og:image:height" content="128">
-      <meta property="og:title" content="cosies.club">
-      <meta property="og:description" content="The best practice server with smooth kb and great hit reg">
-  
+
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="theme-color" content="#6E3598" />
+  <meta property="og:image:width" content="128" />
+  <meta property="og:image:height" content="128" />
+  <meta property="og:title" content="cosies.club" />
+  <meta
+    property="og:description"
+    content="The best practice server with smooth kb and great hit reg"
+  />
+
   <body>
-    <div class="container">
-      <div class="navbar">
-        <img src="images/logo.png" class="logo" alt="Logo" />
-        <nav>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/store">Store</a></li>
-            <li><a href="/updates">Updates</a></li>
-            <li><a href="/staffapps">Applications</a></li>
-            <li><a href="/discord">Discord</a></li>
-          </ul>
-        </nav>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fas fa-J"></i></a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__btn">
+            <a href="/" class="button"> Home </a>
+          </li>
+          <li class="navbar__btn">
+            <a href="/updates" class="button"> Updates </a>
+          </li>
+          <li class="navbar__btn">
+            <a href="/appeals" class="button"> Appeals </a>
+          </li>
+          <li class="navbar__btn">
+            <a href="/discord" class="button"> Discord </a>
+          </li>
+        </ul>
       </div>
+    </nav>
 
-      <div class="content">
-        <h1 style="position: relative; top: 15px">
-          Yo my name is cosies, Im 13 and I like to make texture packs and I own
-          a small minecraft server!
-        </h1>
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <img class="avatar" src="/images/Logo123.png" alt="Cosies avatar" />
+          <h1>Cosies</h1>
+          <h2>Club</h2>
+        </div>
       </div>
-
-      <div class="box">
-        <h1>
-          <widgetbot
-          server="866332526180302859"
-          channel="866332526918238210"
-          width="800"
-          height="381"
-        ></widgetbot>
-        <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
-        </h1>
-      </div>
+      <hr style="width: 1750px; margin: auto" />
     </div>
   </body>
 </html>
