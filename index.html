@@ -16,35 +16,40 @@
   />
 
   <body>
-    <div class="container">
-      <div class="navbar">
-        <img src="images/logo.png" class="logo" alt="Logo" />
-        <nav>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/appeals/">Updates</a></li>
-            <li><a href="/updates">Appeals</a></li>
-            <li><a href="https://store.cosies.club">Store</a></li>
-            <li><a href="/discord">Discord</a></li>
-          </ul>
-        </nav>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fas fa-J"></i></a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__btn">
+            <a href="/" class="button"> Home </a>
+          </li>
+          <li class="navbar__btn">
+            <a href="/updates" class="button"> Updates </a>
+          </li>
+          <li class="navbar__btn">
+            <a href="/appeals" class="button"> Appeals </a>
+          </li>
+          <li class="navbar__btn">
+            <a href="/discord" class="button"> Discord </a>
+          </li>
+        </ul>
       </div>
+    </nav>
 
-      <div class="content">
-        <h1 style="position: relative; top: 15px">
-          Yo my name is cosies, Im 13 and I like to make texture packs and I own
-          a small minecraft server!
-        </h1>
-      </div>
-
-      <div class="social__media">
-        <div class="social__media--wrap">
-          <div class="footer__logo">
-            <a href="/" id="footer__logo"> <fa class="cloud"></fa></a>
-          </div>
-          <p class="website__rights">© Cosies 2021. All Rights reserved</p>
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <img class="avatar" src="/images/Logo123.png" alt="Cosies avatar" />
+          <h1>Cosies</h1>
+          <h2>Club</h2>
         </div>
       </div>
+      <hr style="width: 1750px; margin: auto" />
     </div>
   </body>
 </html>
